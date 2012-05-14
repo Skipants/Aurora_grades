@@ -1,0 +1,16 @@
+This script pulls your final grades from University of Manitoba's Aurora system and displays them nicely in your shell.
+
+To use:
+1. gem install mechanize
+2. ruby gradepoller.rb <student no.> <pin>
+
+TODO:
+- Allow user to select semester
+- Make PIN entry use a password entry (so your PIN does not show up in your shell and/or history)
+- Show a certain amount of previous semesters or all semesters
+- Show GPAs
+- Poll at a certain time of day (and send an e-mail if new grades?)
+
+NOTE: Please do not spam this script... University of Manitoba only updates the grades nightly at some time between 2am - 4am. Using it multiple times during the day is unnecessary.
+
+I do not plan on adding to this script because I have graduated and am only posting this for fun and use of other fellow U of M students or students of other universities that possibly use Aurora. Please fork and change! I will accept pull requests liberally.
